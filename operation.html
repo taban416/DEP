@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>operation form</title>
+</head>
+<body>
+    <h1>you successfully login</h1>
+    <br>
+    <h2>check the list then delete or update the record:</h2>
+    <a href="/get_list"><button type="submit">list</button></a>
+    
+
+    <form action="" method="post">
+       
+        <br>
+        <input type="text" name="name">
+        <button type="submit" name="operation" value="delete">delete</button>
+        <p>or</p>
+        <h3>enter a new_name to update existing name in the list:</h3>
+        <input type="text" name="new_name">
+        <button type="submit" name="operation" value="update">update</button>
+    </form>
+    <br>
+    <a href="/logout"><button type="submit">logout</button></a>
+</body>
+</html>
